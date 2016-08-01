@@ -97,7 +97,7 @@ class VersionedDataObjectDetailsForm_ItemRequest extends GridFieldDetailForm_Ite
                 $actions->removeByName('action_doDelete');
             }
         
-            $this->extend("updateItemEditForm", $form);
+            //$this->extend("updateItemEditForm", $form);
         
         }
 
